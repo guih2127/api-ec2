@@ -1,0 +1,11 @@
+@API_EC2_HostAddress = http://localhost:5049
+
+GET {{API_EC2_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{API_EC2_HostAddress}}/todos/1
+Accept: application/json
+
+###
